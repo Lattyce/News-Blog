@@ -134,7 +134,7 @@ body {
 
 
   .mor a {
-    color: blue;
+    color: rgb(114, 114, 189);
   }
 
   .mor a:hover {
@@ -191,7 +191,8 @@ body {
     text-decoration-line: underline;
   }
 
-  li .button1 {
+
+li .button1 {
     display: block;
     color: rgb(243, 228, 228);
     text-align: center;
@@ -202,14 +203,14 @@ body {
     border: 0.1rem solid slategray;
     margin: 0.8rem;
     border-radius: 3px;
-  }
+}
 
-  li .button1:hover {
+li .button1:hover {
     background-color: rgb(186, 196, 241);
-    color: #333;
-  }
+    color: black;
+}
 
-  li .button2 {
+li .button2 {
     display: block;
     color: darkslategray;
     text-align: center;
@@ -220,12 +221,12 @@ body {
     margin: 0.8rem;
     border: 0.1rem solid slategray;
     border-radius: 3px;
-  }
+}
 
-  li .button2:hover {
+li .button2:hover {
     background-color: rgb(140, 153, 212);
     color: #fff;
-  }
+}
 
   .dropdown {
     float: left;
@@ -643,40 +644,7 @@ body {
       text-decoration-line: underline;
     }
 
-    li .button1 {
-      display: block;
-      color: rgb(243, 228, 228);
-      text-align: center;
-      padding: 6px;
-      width: 65px;
-      text-decoration: none;
-      background-color: slategray;
-      margin: 0.7rem;
-      border-radius: 3px;
-    }
-
-    li .button1:hover {
-      background-color: #b1b3b5;
-      color: black;
-    }
-
-    li .button2 {
-      display: block;
-      color: rgb(243, 228, 228);
-      text-align: center;
-      padding: 6px;
-      width: 65px;
-      text-decoration: none;
-      background-color: rgb(5, 48, 241);
-      margin: 0.7rem;
-      border-radius: 3px;
-    }
-
-    li .button2:hover {
-      background-color: #b1b3b5;
-      color: black;
-    }
-
+   
     .dropdown {
       float: left;
       overflow: hidden;
@@ -738,6 +706,94 @@ body {
 
     .right {
       display: none;
+    }
+
+
+
+    .user {
+      background-color: #fff;
+      padding: 1rem;
+      border-radius: 0.5rem;
+    }
+  
+    .heading {
+      font-size: 1.2rem;
+      margin-right: 1.2rem;
+    }
+  
+    .fa {
+      font-size: 1rem;
+    }
+  
+    .checked {
+      color: orange;
+    }
+  
+    .side {
+      float: left;
+      width: 15%;
+      margin-top: 0.7rem;
+    }
+  
+    .middle {
+      margin-top: 0.7rem;
+      float: left;
+      width: 70%;
+    }
+  
+    .right {
+      text-align: right;
+    }
+  
+    .roww {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+    }
+  
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  
+  
+    .bar-container {
+      width: 90%;
+      background-color: #f1f1f1;
+      text-align: center;
+      color: white;
+    }
+  
+    .bar-5 {
+      width: 50%;
+      height: 3vh;
+      background-color: #04AA6D;
+    }
+  
+    .bar-4 {
+      width: 30%;
+      height: 3vh;
+      background-color: #2196F3;
+    }
+  
+    .bar-3 {
+      width: 10%;
+      height: 3vh;
+      background-color: #00bcd4;
+    }
+  
+    .bar-2 {
+      width: 4%;
+      height: 3vh;
+      background-color: #ff9800;
+    }
+  
+    .bar-1 {
+      width: 15%;
+      height: 3vh;
+      background-color: #f44336;
     }
   }
 
