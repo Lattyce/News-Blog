@@ -23,6 +23,7 @@ body {
     top: 0;
     margin-bottom: 1rem;
     z-index: 1000;
+    border-bottom: 0.1rem solid rgb(23, 23, 44);
   }
 
 
